@@ -40,7 +40,7 @@
   ```
 
 
-`git branch`
+修复bug `git branch`
 
 
 
