@@ -27,7 +27,17 @@
 ```
   git log
 ```
----
+- 版本回滚  
+  1. 回滚到之前的版本
+  ```
+    git log //查找版本号
+    git reset --hard 版本号
+  ```
+  2.  回滚到之后的版本
+  ```
+    git reflog
+    git reset --hard 版本号
+  ```
 
 
 
