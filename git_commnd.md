@@ -39,8 +39,26 @@
     git reset --hard 版本号
   ```
 
+- 查看分支
+```
+  git branch
+```
+- 创建分支
+```
+  git branch 分支名称
+```
+- 切换分支
+```
+  git checkout 分支名称
+```
+- 分支合并(可能产生冲突)
+```
+  git merge 要合并的分支
+  注意： 切换分支再合并
+```
+- 删除分支
+```
+  git branch -d 分支名称
+```
 
-修复bug `git branch`
-
-开发进度100%
 
